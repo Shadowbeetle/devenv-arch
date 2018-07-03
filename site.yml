@@ -1,5 +1,5 @@
 - hosts: localhost
- gather_subset: 
- - "!all"
- roles:
- - ex\ ample
+  gather_subset: 
+  - "!all"
+  roles:
+   - common 
